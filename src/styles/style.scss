@@ -1,0 +1,28 @@
+@import 'icons/style.css';
+@import 'global.scss';
+@import 'header.scss';
+@import 'footer.scss';
+@import 'slider.scss';
+@import 'pagination.scss';
+@import 'modal.scss';
+@import 'text-has-line-before.scss';
+@import 'section/about.scss';
+@import 'section/payment-gateway.scss';
+@import 'section/blog-list.scss';
+@import 'section/list-partner.scss';
+@import 'section/service.scss';
+@import 'section/card.scss';
+@import 'section/project.scss';
+@import 'section/counter.scss';
+@import 'section/testimonial.scss';
+@import 'section/form-request.scss';
+@import 'section/our-team.scss';
+@import 'section/case-studies.scss';
+@import 'section/list-pricing.scss';
+@import 'section/questionFAQ.scss';
+@import "animate.css";
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
