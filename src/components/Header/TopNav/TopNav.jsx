@@ -23,9 +23,9 @@ const TopNav = () => {
             </div>
           </div>
           {/* Social Media Links */}
-          <div className="right-block flex items-center gap-5">
-            <div className="line h-6 w-px bg-grey max-sm:hidden">
-              <div className="list-social flex items-center gap-2.5 max-sm:hidden">
+          <div className='right-block flex items-center gap-5'>
+            <div className='line h-6 bg-grey max-sm:hidden'>
+            <div className='list-social flex items-center gap-2.5 max-sm:hidden'>
                 <Link
                   className="item rounded-full w-7 h-7 border-grey border-2 flex items-center justify-center"
                   href="https://facebook.com/mauveine.tech"
