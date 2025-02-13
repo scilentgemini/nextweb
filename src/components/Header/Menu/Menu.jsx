@@ -98,6 +98,16 @@ const Menu = () => {
               </li>
             </ul>
           </div>
+
+          <div className="menu-right-block flex items-center">
+            <div className="icon-call">
+              <i className="icon-phone-call text-4xl"></i>
+              </div>
+              <div className="text ml-3">
+                <div className="text caption1">Free Consultancy</div>
+                <div className="number text-button">+977 980 197 7313</div>
+              </div>
+            </div>
         </div>
       </div>
     </>
