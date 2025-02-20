@@ -121,8 +121,37 @@ const Menu = () => {
         <div id="menu-mobile-block" className={`${openMenuMobile && 'open'}`}>
           <div className="menu-mobile-main">
             <div className="container">
-              <ul>
-                <li>Test Menu</li>
+              <ul className="menu-nav-mobile h-full pt-1 pb-1">
+                <li className="nav-item h-full flex-column gap-2 pt-2 pl-3 pr-3 pb-2 pointer">
+                  <a className="nav-link-mobile flex items-center justify-between" href="/">
+                    <span>Home</span>
+                  </a>
+                </li>
+                <li className="nav-item h-full flex-column gap-2 pt-2 pl-3 pr-3 pb-2 pointer">
+                  <a className="nav-link-mobile flex items-center justify-between" href="/about">
+                    <span>About Us</span>
+                  </a>
+                </li>
+                <li className="nav-item h-full flex-column gap-2 pt-2 pl-3 pr-3 pb-2 pointer">
+                  <a className="nav-link-mobile flex items-center justify-between" href="/service">
+                    <span>Our Services</span>
+                  </a>
+                </li>
+                <li className="nav-item h-full flex-column gap-2 pt-2 pl-3 pr-3 pb-2 pointer">
+                  <a className="nav-link-mobile flex items-center justify-between" href="/case-studies">
+                    <span>Case Studies</span>
+                  </a>
+                </li>
+                <li className="nav-item h-full flex-column gap-2 pt-2 pl-3 pr-3 pb-2 pointer">
+                  <a className="nav-link-mobile flex items-center justify-between" href="/blog">
+                    <span>Blog</span>
+                  </a>
+                </li>
+                <li className="nav-item h-full flex-column gap-2 pt-2 pl-3 pr-3 pb-2 pointer">
+                  <a className="nav-link-mobile flex items-center justify-between" href="/contact">
+                    <span>Contact Us</span>
+                  </a>
+                </li>
               </ul>
             </div>
             </div>
