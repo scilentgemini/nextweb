@@ -1,26 +1,28 @@
-@import 'icons/style.css';
-@import 'global.scss';
-@import 'header.scss';
-@import 'footer.scss';
-@import 'slider.scss';
-@import 'pagination.scss';
-@import 'modal.scss';
-@import 'text-has-line-before.scss';
-@import 'section/about.scss';
-@import 'section/payment-gateway.scss';
-@import 'section/blog-list.scss';
-@import 'section/list-partner.scss';
-@import 'section/service.scss';
-@import 'section/card.scss';
-@import 'section/project.scss';
-@import 'section/counter.scss';
-@import 'section/testimonial.scss';
-@import 'section/form-request.scss';
-@import 'section/our-team.scss';
-@import 'section/case-studies.scss';
-@import 'section/list-pricing.scss';
-@import 'section/questionFAQ.scss';
+@use 'icons/style.css';
+@use 'global';
+@use 'header';
+@use 'footer';
+@use 'slider';
+@use 'pagination';
+@use 'modal';
+@use 'text-has-line-before';
+@use 'section/about';
+@use 'section/payment-gateway';
+@use 'section/blog-list';
+@use 'section/list-partner';
+@use 'section/service';
+@use 'section/card';
+@use 'section/project';
+@use 'section/counter';
+@use 'section/testimonial';
+@use 'section/form-request';
+@use 'section/our-team';
+@use 'section/case-studies';
+@use 'section/list-pricing';
+@use 'section/questionFAQ';
 @import "animate.css";
+
+
 
 
 @tailwind base;
